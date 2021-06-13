@@ -197,7 +197,7 @@
 					}
 				},
 				"kill_detective": {
-					"desc": "Kill :value: as a traitor.",
+					"desc": "Kill :value: as a traitor."
 					"format": {
 						"singular": ":value: detective",
 						"plural": ":value: detectives"
