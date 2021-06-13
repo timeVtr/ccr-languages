@@ -1,0 +1,425 @@
+{
+	"info": {
+		"name": "English"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Missions",
+					"stats": {
+						"accomplished": "Accomplished",
+						"discarded": "Discarded",
+						"rewarded": "Rewarded",
+						"nextRoll": "Next roll"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "Watch mission",
+							"unwatch": "Unwatch mission",
+							"discard": "Discard mission"
+						},
+						"statusTypes": {
+							"accomplished": "ACCOMPLISHED",
+							"discarded": "DISCARDED",
+							"system": "REMOVED BY SYSTEM"
+						},
+						"missed": "Missed"
+					}
+				},
+				"leaderboard": {
+					"name": "Leaderboard",
+					"stats": {
+						"accomplished": "Total accomplished",
+						"discarded": "Total discarded",
+						"rewarded": "Total rewarded"
+					},
+					"selection": {
+						"accomplished": "Accomplished",
+						"discarded": "Discarded",
+						"rewarded": "Rewarded"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Copy name",
+							"copySteamID": "Copy SteamID",
+							"copySteamID64": "Copy SteamID64",
+							"openProfile": "Open steam profile"
+						},
+						"value": {
+							"singular": ":count: mission",
+							"plural": ":count: missions"
+						}
+					}
+				},
+				"settings": {
+					"name": "Settings",
+					"options": {
+						"enableMissionWatching": "Enable mission watching",
+						"autoWatchNewMissions": "Automatically watch new missions",
+						"onlyShowWhileHoldingTab": "Only show panel while holding down TAB",
+						"panelX": "Panel X position",
+						"panelY": "Panel Y position",
+						"enablePopup": "Enable \"Mission accomplished\" popup",
+						"popupStaytime": "Popup staytime (seconds)"
+					}
+				}
+			},
+			"endReached": "Nothing more to show :(",
+			"noData": "Empty, check back later"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": "You have :value: active mission, check it out using :cmd:.",
+				"plural": "You have :value: active missions, check them out using :cmd:."
+			},
+			"newRoll": "A new roll has started!",
+			"newMission": "A new mission has been assigned to you, check it out using :cmd:."
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "Kill :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
+					}
+				},
+				"damage": {
+					"desc": "Deal :value: damage.",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
+				"travel": {
+					"desc": "Cover a distance of :value:.",
+					"format": {
+						"singular": ":value: meter",
+						"plural": ":value: meters"
+					}
+				},
+				"timeAlive": {
+					"desc": "Stay alive for :value:.",
+					"format": {
+						"singular": ":value: minute",
+						"plural": ":value: minutes"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: drug",
+						"plural": ":value: drugs"
+					}
+				},
+				"buyEntity": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyGun": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: gun",
+						"plural": ":value: guns"
+					}
+				},
+				"buyProp": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
+					}
+				},
+				"endRaid": {
+					"desc": "Finish :value:.",
+					"format": {
+						"singular": ":value: raid",
+						"plural": ":value: raids"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "Spawn :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "Find DNA samples of :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
+					}
+				},
+				"equipment": {
+					"desc": "Order :value: from your role's shop.",
+					"format": {
+						"singular": ":value: item",
+						"plural": ":value: items"
+					}
+				},
+				"identify": {
+					"desc": "Identify :value:.",
+					"format": {
+						"singular": ":value: body",
+						"plural": ":value: bodies"
+					}
+				},
+				"karma": {
+					"desc": "Play :value: without loosing karma.",
+					"format": {
+						"singular": ":value: round",
+						"plural": ":value: rounds"
+					}
+				},
+				"kill_positive": {
+					"desc": "Kill :value:.",
+					"format": {
+						"singular": ":value: enemy",
+						"plural": ":value: enemies"
+					}
+				},
+				"win": {
+					"desc": "Win :value:.",
+					"format": {
+						"singular": ":value: round",
+						"plural": ":value: rounds"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "Buy ammo :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				},
+				"buyDoor": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: door",
+						"plural": ":value: doors"
+					}
+				},
+				"buyEntity": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyShipment": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: shipment",
+						"plural": ":value: shipments"
+					}
+				},
+				"buyWeapon": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: weapon",
+						"plural": ":value: weapons"
+					}
+				},
+				"lockpick": {
+					"desc": "Lockpick something :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				},
+				"changeJob": {
+					"desc": "Change your job :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				},
+				"arrest": {
+					"desc": "Arrest :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
+					}
+				},
+				"salary": {
+					"desc": "Receive :value:.",
+					"format": {
+						"singular": ":value: salary",
+						"plural": ":value: salary"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "Use a normal emote :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"hologram": {
+						"desc": "Use a hologram emote :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "Craft :value:.",
+						"format": {
+							"singular": ":value: item",
+							"plural": ":value: items"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "Sell lean :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"drink": {
+						"desc": "Drink :value: of lean.",
+						"format": {
+							"singular": ":value: cup",
+							"plural": ":value: cups"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "Throw :value:.",
+						"format": {
+							"singular": ":value: flare",
+							"plural": ":value: flares"
+						}
+					},
+					"loot": {
+						"desc": "Loot :value:.",
+						"format": {
+							"singular": ":value: care package",
+							"plural": ":value: care packages"
+						}
+					},
+					"open": {
+						"desc": "Open :value:.",
+						"format": {
+							"singular": ":value: care package",
+							"plural": ":value: care packages"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "Play coinflip :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"win": {
+						"desc": "Win a coinflip :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "Get infected :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"cure": {
+						"desc": "Get cured from an infection :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": "Start a call :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"callAnswer": {
+						"desc": "Answer a call :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"smsSend": {
+						"desc": "Send :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"smsReceive": {
+						"desc": "Receive :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"mailSend": {
+						"desc": "Send :value:.",
+						"format": {
+							"singular": ":value: mail",
+							"plural": ":value: mails"
+						}
+					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": "Withdraw :value: from your bank account.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"deposit": {
+						"desc": "Deposit :value: into your bank account.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"transfer": {
+						"desc": "Transfer :value: to someone's bank account.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					}
+				}
+			}
+		}
+	}
+}
