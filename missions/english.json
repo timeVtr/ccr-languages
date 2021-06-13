@@ -195,6 +195,13 @@
 						"singular": ":value: round",
 						"plural": ":value: rounds"
 					}
+				},
+				"kill_detective": {
+					"desc": "Kill :value: as a traitor.",
+					"format": {
+						"singular": ":value: detective"
+						"plural": ":value: detectives"
+					}
 				}
 			},
 			"darkrp": {
