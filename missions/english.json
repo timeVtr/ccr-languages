@@ -176,7 +176,7 @@
 					}
 				},
 				"karma": {
-					"desc": "Play :value: without loosing karma.",
+					"desc": "Play :value: without losing karma.",
 					"format": {
 						"singular": ":value: round",
 						"plural": ":value: rounds"
